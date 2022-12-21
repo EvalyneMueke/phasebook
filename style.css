@@ -47,3 +47,34 @@ nav ul li a:hover{
     flex-basis: 60%;
     
 }
+#data_container{
+    display: flex;
+}
+.card{
+    height:400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 10px 10px 5px lightgrey;
+
+    border-radius: 10%;
+
+
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:15px ;
+    padding: 10px;
+
+}
+.card p{
+    margin: 25px;
+    font-size: larger;
+
+}
