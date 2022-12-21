@@ -49,6 +49,8 @@ nav ul li a:hover{
 }
 #data_container{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .card{
     height:400px;
@@ -59,9 +61,9 @@ nav ul li a:hover{
     align-items: center;
     margin: 20px;
     background-color: #F5F5F5;
-    box-shadow: 10px 10px 5px lightgrey;
+    box-shadow: 10px 10px 5px #808080;
 
-    border-radius: 10%;
+    border-radius: 2.5%;
 
 
 }
