@@ -7,6 +7,7 @@ function displayData(data){
    // console.log(data);
     for(item of data){
         const card =document.createElement('div')
+        card.className ='card'
        const cardDetails=`
             <img src ="${item.image}" alt ="Student image">
             <p> ${item.message}</p>
