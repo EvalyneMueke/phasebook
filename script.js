@@ -48,6 +48,7 @@ function searchName(){
                 const notFoundMessage =`<h2>Sorry,Student Not Found</h2>` 
                 resultsContainer.innerHTML=notFoundMessage  
             }
+            form.reset()
         })
     } )
 
