@@ -22,14 +22,14 @@
         </ul>
     </nav>
     <section id="inputForm">
-        <form>
+        <form id="get_user_data" onsubmit="postData()">
            <input type="text" name="name"placeholder="Your Name" id="user_name"> 
            <br>
            <input type="url" name="image" placeholder="Your Image URL" id="imageUrl">
            <br>
            <input type="text" name="message" placeholder="Your parting shot" id="user_message">
            <br>
-           <button type="submit" id="addDataButton">ADD MESSAGE</button>
+           <button type="submit" id="addDataButton" onclick="postData()">ADD MESSAGE</button>
         </form>
     </section>
     <footer>
